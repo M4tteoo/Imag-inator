@@ -1,0 +1,144 @@
+/* Main Window */
+QFrame {
+    background-color: #322D29;
+    font-size: 14px;
+    color: #E6D9C8;
+}
+
+#frame, #buttons_frame, #select_file_frame, #image_search_frame, #title_frame, #results_frame, #functions_frame, #title_frame, #menu_frame, #scout_frame {
+    border: none;
+}
+
+#results_page QFrame {
+    border: none;
+}
+
+/*  854442*/
+#functions_frame, #menu_frame {
+    background-color: #2E2A26;
+}
+
+#photo_frame{
+    background-color: #3D3732;
+}
+#title_frame, #frame, #buttons_frame, #title_label, #photo_1, #photo_2, #photo_3{
+    background-color: transparent;
+}
+
+
+/* Buttons */
+QPushButton {
+    background-color: #B5765C;
+    color: #2E2A26;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+QPushButton:hover {
+    background-color: #C47C62;
+}
+
+/* Neutral Button (e.g., Cancel) */
+QPushButton#cancelButton {
+    background-color: #3A3530;
+    color: #E6D9C8;
+    border: 1px solid #5C4C42;
+}
+
+QPushButton#cancelButton:hover {
+    background-color: #4A423B;
+}
+
+/* Line Edits */
+QLineEdit {
+    background-color: #3A3530;
+    color: #E6D9C8;
+    border: 1px solid #5C4C42;
+    border-radius: 4px;
+    padding: 6px 10px;
+}
+
+QLineEdit:focus {
+    border: 1px solid #D18B6A;
+}
+
+/* Placeholder Text */
+QLineEdit[echoMode="0"]::placeholder {
+    color: #A68E79;
+}
+
+/* Labels */
+QLabel {
+    color: #E6D9C8;
+}
+
+#upload_label {
+    color: #E6D9C8;
+    background-color: #3D3732;
+    border-radius: 4px;
+    padding: 4px 8px;
+}
+
+#upload_label:hover {
+    background-color: #4A423B;
+    color: #FFFFFF;
+}
+
+#title_label {
+    font-size: 17px;
+    color: #EBD197; 
+    letter-spacing: 1.2px;
+    padding: 5px 
+}
+
+
+
+
+/* Group Boxes */
+QGroupBox {
+    border: 1px soli
+}
+
+/* Adding Icons */
+
+QPushButton#clear_button {
+    qproperty-icon: url("icons/eraser_dark.svg");
+    qproperty-iconSize: 12px 12px;
+}
+
+QPushButton#results_button {
+    qproperty-icon: url("icons/search_dark.svg");
+    qproperty-iconSize: 12px 12px;
+}
+QPushButton#select_file_button {
+    qproperty-icon: url("icons/folder-search_dark.svg");
+    qproperty-iconSize: 12px 12px;
+}
+QPushButton#history_button {
+    qproperty-icon: url("icons/file-stack_dark.svg");
+    qproperty-iconSize: 12px 12px;
+}
+QPushButton#add_images_button {
+    qproperty-icon: url("icons/image-plus_dark.svg");
+    qproperty-iconSize: 12px 12px;
+}
+
+QPushButton#select_folder_button {
+    qproperty-icon: url("icons/folders_dark.svg");
+    qproperty-iconSize: 12px 12px;
+}
+
+QPushButton#new_search_button {
+    qproperty-icon: url("icons/undo_dark.svg");
+    qproperty-iconSize: 12px 12px;
+}
+
+QPushButton#modify_search_button {
+    qproperty-icon: url("icons/pencil-line_dark.svg");
+    qproperty-iconSize: 12px 12px;
+}
+
+QPushButton#retrieve_1, #retrieve_2, #retrieve_3 {
+    qproperty-icon: url("icons/circle-chevron-down_dark.svg");
+    qproperty-iconSize: 12px 12px;
+}

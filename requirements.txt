@@ -1,0 +1,12 @@
+pillow==11.1.0
+pillow-heif==0.22.0
+watchdog==6.0.0
+numpy==2.2.4
+matplotlib==3.10.1
+torch==2.6.0
+torchvision== 0.21.0
+tqdm == 4.67.1
+PySide6==6.9.0
+PySide6_Addons==6.9.0
+PySide6_Essentials==6.9.0
+clip @ git+https://github.com/openai/CLIP.git@dcba3cb2e2827b402d2701e7e1c7d9fed8a20ef1

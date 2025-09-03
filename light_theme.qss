@@ -1,0 +1,175 @@
+/* Main Window */
+QFrame {
+    background-color: #FFF4E6;
+    font-size: 14px;
+    color: #3B3A36;
+}
+
+#frame, #buttons_frame, #select_file_frame, #image_search_frame, #title_frame, #results_frame, #functions_frame, #title_frame, #menu_frame, #scout_frame {
+    border: none;
+}
+
+#results_page QFrame {
+    border: none;
+}
+
+/*  854442, 8C4745*/
+#functions_frame, #menu_frame, #photo_frame, #scout_frame {
+    background-color: #722F37;
+}
+
+#title_frame, #frame, #buttons_frame, #title_label, #photo_1, #photo_2, #photo_3, #scout_label {
+    background-color: transparent;
+}
+
+/* Buttons */
+QPushButton {
+    background-color: #BE9B7B;
+    color: #F9F6EE;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+
+#clear_button, #results_button, #select_file_button, #new_search_button, #modify_search_button{
+    background-color: #B69D87;
+}
+
+QPushButton:hover {
+    background-color: #E0A88F;
+}
+
+#clear_button:hover, 
+#results_button:hover, 
+#select_file_button:hover,
+#new_search_button:hover,
+#modify_search_button:hover {
+    background-color: #D1A591;  
+}
+
+
+/* Text Inputs */
+QLineEdit {
+    background-color: #FFFFFF;
+    color: #3B3A36;
+    border: 1px solid #CFC3B7;
+    border-radius: 4px;
+    padding: 6px 10px;
+}
+
+QLineEdit:focus {
+    border: 1px solid #D18B6A;
+}
+
+/* Placeholder */
+QLineEdit[echoMode="0"]::placeholder {
+    color: #A99C91;
+}
+
+/* Labels */
+QLabel {
+    color: #3B3A36;
+}
+#upload_label {
+    background-color: #F9E9D3;
+}
+/*  F1DED4*/
+#upload_label:hover {
+    background-color: #E7CEAB;
+}
+/*EBD197*/
+#title_label {
+    font-size: 17px;
+    color: #EBD197; 
+    letter-spacing: 1.2px;
+    padding: 5px 
+}
+
+/* Group Boxes */
+QGroupBox {
+    border: 1px solid #CFC3B7;
+    border-radius: 6px;
+    margin-top: 12px;
+    padding: 10px;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top left;
+    padding: 0 6px;
+    color: #D18B6A;
+    font-weight: 500;
+}
+
+/* Optional Frame */
+#buttons_frame {
+    border: none;
+    background-color: transparent;
+}
+
+/* List Widgets (Optional) */
+QListWidget {
+    background-color: #FFFFFF;
+    border: 1px solid #CFC3B7;
+    color: #3B3A36;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+/* Scrollbars */
+QScrollBar:vertical {
+    background-color: #ECE3D7;
+    width: 8px;
+    margin: 0px 0px 0px 0px;
+    border: none;
+}
+QScrollBar::handle:vertical {
+    background: #D18B6A;
+    min-height: 20px;
+    border-radius: 4px;
+}
+
+/* Adding Icons */
+
+QPushButton#clear_button {
+    qproperty-icon: url("icons/eraser.svg");
+    qproperty-iconSize: 12px 12px;
+}
+
+QPushButton#results_button {
+    qproperty-icon: url("icons/search.svg");
+    qproperty-iconSize: 12px 12px;
+}
+QPushButton#select_file_button {
+    qproperty-icon: url("icons/folder-search.svg");
+    qproperty-iconSize: 12px 12px;
+}
+QPushButton#history_button {
+    qproperty-icon: url("icons/file-stack.svg");
+    qproperty-iconSize: 12px 12px;
+}
+QPushButton#add_images_button {
+    qproperty-icon: url("icons/image-plus.svg");
+    qproperty-iconSize: 12px 12px;
+}
+
+QPushButton#select_folder_button {
+    qproperty-icon: url("icons/folders.svg");
+    qproperty-iconSize: 12px 12px;
+}
+
+QPushButton#new_search_button {
+    qproperty-icon: url("icons/undo.svg");
+    qproperty-iconSize: 12px 12px;
+}
+
+QPushButton#modify_search_button {
+    qproperty-icon: url("icons/pencil-line.svg");
+    qproperty-iconSize: 12px 12px;
+}
+
+QPushButton#retrieve_1, #retrieve_2, #retrieve_3 {
+    qproperty-icon: url("icons/circle-chevron-down.svg");
+    qproperty-iconSize: 12px 12px;
+}
