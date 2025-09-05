@@ -60,14 +60,11 @@ Imag-inator addresses this by providing:
 
 ---
 
-## 🖼️ Screenshots  
+## Demo Video
 
-*(Add GUI screenshots or GIF demo here — e.g., searching for “a sunset over mountains”)*  
-
----
+![Imag-inator demo](assets/demo_video.gif)  
 
 ## 📦 Installation  
-
 
 # Clone repository
 `git clone https://github.com/yourusername/imag-inator.git`
