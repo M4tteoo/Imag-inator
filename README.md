@@ -66,18 +66,18 @@ Imag-inator addresses this by providing:
 
 ## 📦 Installation  
 
-# Clone repository
+### Clone repository
 `git clone https://github.com/yourusername/imag-inator.git`
 `cd imag-inator`
 
-# Create virtual environment
+### Create virtual environment
 `python -m venv venv`
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 
-# Install dependencies
+### Install dependencies
 pip install -r requirements.txt
 
-# Run Imag-inator
+### Run Imag-inator
 python main.py
 📋 Requirements
 Python 3.9+
